@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+<style>
+body {
+  background-color: beige;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+  
+<body>
+
+<h2 style="text-align:center">Home Page</h2>
+
+<div class="card">
+  <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/933c6ad6-798d-4fb9-bc08-d0f8a3175090/blazer-mid-77-big-kids-shoes-4VfSTd.png" alt="Denim Jeans" style="width:100%">
+  <h1>Supercool Blazers</h1>
+  <p class="price">$100.00</p>
+  <p></p>
+  <p><button type="button" onclick="window.location.href='{{ url_for( 'Supercool_Blazers') }}';">Buy It</button>
+
+</div></p>
+
+
+
+<div class="card">
+  <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/i1-9fa1abf0-b6a4-4c79-99b3-c179e38dd1da/air-jordan-1-mid-shoes-cQ5Jpt.png" style="width:100%">
+  <h1>Air Jordan 1 Mid</h1>
+  <p class="price">$85.00</p>
+  <p></p>
+  <p><button>Buy It!</button></p>
+</div>
+
+<div class="card">
+  <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/f2e2833a-49e2-4088-b77e-4e4a5be53ae7/buty-meskie-air-force-1-07-xCxt0q.png" style="width:100%">
+  <h1>Nike Air Force 1 '07</h1>
+  <p class="price">$90.00</p>
+  <p></p>
+  <p><button>Buy It!</button></p>
+</div>
+
+
+  
+</body>
+</html>
